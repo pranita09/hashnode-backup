@@ -18,9 +18,10 @@ Let me break it down for you. When you write JavaScript code, it needs to be exe
 
 You must be confused about what is synchronous and asynchronous behavior of JavaScript. So, let's understand it first.
 
-**Synchronous behavior** means that the code is executed one line at a time, in the order that it appears. Each line of code must finish executing before the next line can start. This synchronous behavior can sometimes cause problems if a task takes a long time to complete. Because the program will be blocked until that task is finished. To overcome this, there comes asynchronous behavior.
-
-**Asynchronous behavior** means that the code can continue executing while a task is being completed. Unlike synchronous, asynchronous code doesn't block the execution of the rest of your program. While the asynchronous task is being executed, the rest of your code can continue to run. This is useful for tasks that take a long time to complete, like fetching data from a server or reading a large file.
+1. **Synchronous behavior** means that the code is executed one line at a time, in the order that it appears. Each line of code must finish executing before the next line can start. This synchronous behavior can sometimes cause problems if a task takes a long time to complete. Because the program will be blocked until that task is finished. To overcome this, there comes asynchronous behavior.
+    
+2. **Asynchronous behavior** means that the code can continue executing while a task is being completed. Unlike synchronous, asynchronous code doesn't block the execution of the rest of your program. While the asynchronous task is being executed, the rest of your code can continue to run. This is useful for tasks that take a long time to complete, like fetching data from a server or reading a large file.
+    
 
 Here's an example to help you understand asynchronous code in JavaScript:
 
