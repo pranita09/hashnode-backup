@@ -222,7 +222,7 @@ Check out the site [JavaScript Visualizer](https://www.jsv9000.app/) website to 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1678193002325/6a3784e5-a64c-4bd0-827a-cd6470aae71e.gif align="center")
 
-## Conclusion
+## Summary
 
 Understanding the inner workings of JavaScript's runtime is crucial for writing efficient and error-free code. The call stack, event loop, callback functions, and job queues are all essential components that work together to make JavaScript a powerful and versatile language for web development. A javascript developer must know all these components.
 
