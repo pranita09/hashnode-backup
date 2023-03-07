@@ -178,7 +178,6 @@ Let’s see how this code works in the background:
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1678189955073/a993e23a-3b3e-4466-8c2a-e2b0ee0d3042.png align="left")
     
-
 * Once Web API is done executing this (for 3000ms), it places the anonymous callback function in the Callback queue.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1678190255638/ba9885fd-6590-4e59-962b-57a617694402.png align="left")
@@ -198,24 +197,20 @@ Let’s see how this code works in the background:
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1678190813206/77f35cc9-59dd-40f2-8320-950167138d23.png align="left")
     
-
 * `print_third_statement()` function execution context is popped off the call stack.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1678190960753/7490f726-15ce-4315-92cb-45eab1e39b26.png align="left")
     
-
 * When the call stack becomes empty, the anonymous callback function in the callback queue will be pushed into this empty call stack by the Event Loop.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1678191237886/886e820a-8ab9-468e-8ec0-2d8cbdd2e257.png align="left")
     
-
 * This callback function’s function execution context is placed in the call stack and the function is executed.
     
 * This outputs printing `Second statement` on the screen.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1678191469516/f70048a6-9a0b-4431-9603-d46b8e83f028.png align="left")
     
-
 * The callback function’s function execution context is popped off the call stack.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1678191548682/069d85c7-8ce5-429b-8d4b-b6e8eb28dbc5.png align="center")
@@ -227,7 +222,7 @@ Check out the site [JavaScript Visualizer](https://www.jsv9000.app/) website to 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1678193002325/6a3784e5-a64c-4bd0-827a-cd6470aae71e.gif align="center")
 
-## Summary
+## Conclusion
 
 Understanding the inner workings of JavaScript's runtime is crucial for writing efficient and error-free code. The call stack, event loop, callback functions, and job queues are all essential components that work together to make JavaScript a powerful and versatile language for web development. A javascript developer must know all these components.
 
