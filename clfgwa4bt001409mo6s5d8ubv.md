@@ -298,6 +298,13 @@ That wraps up our deep dive into Asynchronous JavaScript! We've covered the majo
 I hope this will help you to understand the concepts.  
 And I want to thank you for being patient with my writing and reading the article till the end! 🙌
 
+## References
+
+* [MDN Web Docs for promises and callbacks](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+    
+* [JavaScript.info for async-await](https://javascript.info/async-await)
+    
+
 ---
 
 If you got to learn something new today, then do spread the word about the article. I would be very grateful!  
