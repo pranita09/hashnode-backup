@@ -131,7 +131,7 @@ let myPromise = new Promise(function(resolve, reject) {
 });
 ```
 
-Promise has two callback functions as arguments that are `resolve` and `reject`.
+Promise takes a single callback function as an argument. The callback function takes two arguments that are `resolve` and `reject`.
 
 * `resolve` - If the request is successful promise will be resolved using the resolve() method and the state is changed to fulfilled.
     
