@@ -235,7 +235,7 @@ Here, you can see promises can efficiently handle interdependent operations. The
 4. Always put a `.catch` statement in your chain to make sure all errors are being handled. i.e. Always terminate the chain with a catch.
     
 
-The thing is, chaining promises together just like callbacks can get pretty bulky and confusing. That's why Async and Await were brought about. Now, sit back, relax, and let's go to our final destination of async-await!
+The thing is, chaining promises together just like callbacks can get pretty bulky and confusing. One interesting thing about promises is that we cannot store a promise into a variable. But async-await can make it possible. Here is why Async and Await were brought about. Now, sit back, relax, and let's go to our final destination of async-await!
 
 ## Why and What is async-await?
 
