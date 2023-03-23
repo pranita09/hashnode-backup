@@ -4,7 +4,7 @@ datePublished: Mon Mar 20 2023 14:00:59 GMT+0000 (Coordinated Universal Time)
 cuid: clfgwa4bt001409mo6s5d8ubv
 slug: deep-dive-into-asynchronous-js-callbacks-promises-async-await
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/sAGaysaOrHA/upload/d023e3676f9a17a222c61c00cdb3ee0e.jpeg
-tags: promises, callbacks, asyncawait, callback-hell, asynchronous-javascript
+tags: javascript, promises, callbacks, asyncawait, asynchronous-javascript
 
 ---
 
@@ -202,7 +202,7 @@ In this code, we call the `.then()` method on our `fetchData` Promise. The `.the
 
 In this example, we simply log the data to the console. However, you could use the data to update your web page, send it to another server, or do something else with it.
 
-If the operation fails, the `.catch()` method is called instead of `.then()`. The `.catch()` method takes a callback function that is called when the operation fails. The callback function receives the error object as a parameter.
+If the operation fails, the `.catch()` method is called. The `.catch()` method takes a callback function that is called when the operation fails. The callback function receives the error object as a parameter.
 
 In our example, we simply log the error to the console. However, you could also display an error message to the user or take some other action to handle the error.
 
@@ -228,11 +228,11 @@ Here, you can see promises can efficiently handle interdependent operations. The
 
 1. `.catch` always catches all errors in its above chain.
     
-2. If an error is handled with a catch, still you have to move further in your chaining, put `.then` after `.catch` and keep the flow of the data.
+2. The `.then` written after `.catch` will be executed always no matter if the promise is resolved or rejected.
     
 3. Always return a promise from the inner chain (i.e. from each `.then`) to keep the flow of the data in the chain.
     
-4. Always put a .catch statement in your chain to make sure all errors are being handled. i.e. Always terminate the chain with a catch.
+4. Always put a `.catch` statement in your chain to make sure all errors are being handled. i.e. Always terminate the chain with a catch.
     
 
 The thing is, chaining promises together just like callbacks can get pretty bulky and confusing. That's why Async and Await were brought about. Now, sit back, relax, and let's go to our final destination of async-await!
